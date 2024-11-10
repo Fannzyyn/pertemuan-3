@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7ce160;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #7ce160;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+
+.portfolio img {
+    width: 250px;             /* Meningkatkan lebar gambar */
+    height: auto;             /* Mempertahankan rasio aspek */
+    margin: 20px;             /* Menambahkan jarak di sekitar gambar */
+    border: 2px solid #ccc;   /* Menambahkan border untuk membuat gambar lebih menonjol */
+    border-radius: 5px;       /* Menambahkan sudut yang bulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Menambahkan bayangan untuk efek visual */
+    object-fit: cover;        /* Memastikan gambar terpotong proporsional */
+}
